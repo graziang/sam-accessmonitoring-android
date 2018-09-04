@@ -1,0 +1,43 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory
+        android:title="@string/family"
+        android:key="pref_key_family_settings">
+
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="family_switch"
+            android:summary="@string/enable_family_summary"
+            android:title="@string/enable_family" />
+
+        <graziano.g.accessmonitoring.preference.FamilyFormPreference
+            android:key="family_form"
+            android:title="@string/edit_family"
+            android:summary="@string/edit_family_summary"
+            android:defaultValue="10"
+            />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/child"
+        android:key="pref_key_child_settings">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="child_switch"
+            android:summary="@string/enable_child_summary"
+            android:title="@string/enable_child_title" />
+
+        <graziano.g.accessmonitoring.preference.ChildFormPreference
+            android:key="child_form"
+            android:title="@string/edit_child"
+            android:summary="@string/edit_child_summary"
+            android:defaultValue="10"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

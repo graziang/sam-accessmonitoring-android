@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "568471537899",
+    "firebase_url": "https://accessmonitoring-af5a3.firebaseio.com",
+    "project_id": "accessmonitoring-af5a3",
+    "storage_bucket": "accessmonitoring-af5a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568471537899:android:1209d14ebd8e7ac8",
+        "android_client_info": {
+          "package_name": "graziano.g.accessmonitoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568471537899-jor2gd1bpblu7rvp0qml8kqblatc9lib.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "568471537899-jor2gd1bpblu7rvp0qml8kqblatc9lib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfSXEjdQhKmC2eREedXhrqSADxJ6y1YjE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

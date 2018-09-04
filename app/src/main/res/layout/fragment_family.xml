@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal"
+    android:background="@color/colorItem"
+    android:layout_marginVertical="5dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/child_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_baseline_face_24px" />
+
+
+    <TextView
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/child_name"
+        android:layout_toRightOf="@id/child_image"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/child_sessin_address"
+        android:layout_below="@+id/child_image"
+       android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/child_session_date"
+        android:layout_toRightOf="@+id/child_name"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginVertical="10dp"
+        android:textSize="15sp"
+        />
+
+    <pl.bclogic.pulsator4droid.library.PulsatorLayout
+        android:id="@+id/pulsator"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        app:pulse_count="4"
+        app:pulse_duration="2000"
+        app:pulse_repeat="0"
+        app:pulse_color="@color/colorActive"
+        app:pulse_startFromScratch="false"
+        app:pulse_interpolator="Linear">
+
+        <!-- <ImageView
+          android:layout_width="64dp"
+          android:layout_height="64dp"
+          android:layout_centerInParent="true"
+          android:src="@drawable/android_phone"
+          android:contentDescription="@string/image_description_android_phone"/>
+      -->
+
+        <Button
+            android:id="@+id/status"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/round_item"/>
+
+
+
+    </pl.bclogic.pulsator4droid.library.PulsatorLayout>
+
+
+
+</RelativeLayout>

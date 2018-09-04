@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Familing</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+    <!--Settings activity -->
+    <string name="edit_family">Edit family settings</string>
+    <string name="edit_family_summary">Create or modify family credentials</string>
+    <string name="enable_family">Enable family mode</string>
+    <string name="enable_family_summary">Enable or disable family mode</string>
+
+    <string name="edit_child">Edit child settings</string>
+    <string name="edit_child_summary">Edit or create child belongs to a family</string>
+
+    <string name="enable_child_title">Enable child mode</string>
+    <string name="enable_child_summary">Turn switch off to disable child monitoring mode</string>
+
+    <!-- main activity strings -->
+    <string name="no_session_available">No session available for child </string>
+    <string name="ok_button">OK</string>
+    <string name="done_message">DONE</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="create_button">Create</string>
+    <string name="error_title">ERROR</string>
+    <string name="date_ago">ago</string>
+    <string name="location_request_message">Application need Location permissions, open Location setting?</string>
+
+    <!--location and photo messages -->
+    <string name="no_location_aviable">No location info aviable</string>
+    <string name="location_pin_text">I\'m here</string>
+    <string name="failed_message">Failed!</string>
+    <string name="image_saved">Image Saved!"</string>
+
+    <string name="image_picker">Select mode</string>
+    <string name="select_from_gallery">Select photo from gallery</string>
+    <string name="select_from_camera">Capture photo from camera</string>
+
+    <string name="child">Child</string>
+    <string name="family">Family</string>
+    <string name="session">Session</string>
+
+    <string name="success_create"> successfully created</string>
+    
+    <!--SERVER ENDPOIND AND CREDENTIALS -->
+    <string name="server_url">https://sam-peps-server.herokuapp.com</string>
+    <string name="server_username">sam-peps</string>
+    <string name="server_password">sam-peps</string>
+    
+    <string name="http_error_parse">Error parsing response</string>
+    <string name="http_error_bad_response">Request error; [status_code: ${error}]</string>
+    <string name="alert_configuration_textView">WELCOME!\n Start using app by configuring family and child in the settings!</string>
+
+</resources>
